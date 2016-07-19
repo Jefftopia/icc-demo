@@ -1,0 +1,62 @@
+<div [collapse]="hMenuCollapse" class="navbar-collapse collapse inverse" id="navbar-header">
+    <div class="container-fluid">
+    <div class="about">
+        <h4>About</h4>
+        <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+    </div>
+    <div class="social">
+        <h4>Contact</h4>
+        <ul class="list-unstyled">
+            <li><a href="#">Follow on Twitter</a></li>
+            <li><a href="#">Like on Facebook</a></li>
+            <li><a href="#">Email me</a></li>
+        </ul>
+    </div>
+    </div>
+</div>
+<div class="navbar navbar-static-top navbar-light bg-faded">
+    <div class="container-fluid">
+        <button  (click)="setState()" class="navbar-toggler pull-left" type="button" data-toggle="collapse" data-target="#navbar-header">
+            &#9776;
+        </button>
+        <ul class="nav navbar-nav pull-xs-right">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Events</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/mass']">Mass Schedule</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/mass']">Contact Us</a>
+            </li>            
+        </ul>        
+    </div>
+</div>
+<div class="navbar navbar-static-top navbar-light">
+    <div class="container-fluid">
+        <div class="navbar-brand">
+            <img class="img-fluid navbar-brand-img" src="assets/img/icc_logo.png" />
+            <a [routerLink]="['']" class="navbar-brand-inline"><h4>Immaculate Conception</h4><sub>Roman Catholic Parish</sub></a>
+        </div>
+        <ul class="nav navbar-nav navbar-banner-nav pull-xs-right">
+            <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Newcomers</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Formation</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Parish Life</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Worship</a>
+            </li>            
+        </ul>
+    </div>
+</div>
+<section> 
+    <router-outlet></router-outlet>
+</section>

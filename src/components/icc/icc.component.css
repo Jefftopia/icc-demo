@@ -1,0 +1,15 @@
+.navbar-brand-img {
+    display: inline-block;
+    max-height: 100px;
+}
+
+.navbar-brand-inline {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 0;    
+}
+
+.navbar-banner-nav .nav-item .nav-link {
+    padding-top: 2.425rem;
+    padding-bottom: 2.425rem;
+}

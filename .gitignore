@@ -1,0 +1,7 @@
+target
+node_modules
+jspm_packages
+bower_components
+src/**/*.js
+*.zip
+*.gzip
