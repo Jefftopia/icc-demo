@@ -1,0 +1,8 @@
+#Overview
+
+ICC-demo is a WIP rebuild of Jenkintown PA's Immaculate Conception Church. The site is built on Angular 2 + ng2-Bootstrap. 
+Backend servies have  yet to be determined, but could include Firebase or Express. Angular 2 Universal is a goalpost for later. 
+Finally, the church must consider not only design modifications but whether to integrate with third-party API's 
+such as Stripe for payment.
+
+TODO
